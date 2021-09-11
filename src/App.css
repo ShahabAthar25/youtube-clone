@@ -1,0 +1,8 @@
+.app_body {
+  display: flex;
+}
+
+.seprater {
+  margin: 20px 1px;
+  border-top: 1px solid #e5e5e5;
+}
