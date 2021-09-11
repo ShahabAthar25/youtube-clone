@@ -1,0 +1,19 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  background-color: #e5e5e5;
+}
+
+.sidebarOption p {
+  padding-left: 20px;
+  font-family: Roboto, Noto, sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+}

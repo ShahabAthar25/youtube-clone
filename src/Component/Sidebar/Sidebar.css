@@ -1,0 +1,5 @@
+.sidebar {
+  flex: 0.15;
+  border-right: 1px solid #e5e5e5;
+  height: calc(100vh - 70px);
+}
