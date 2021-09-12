@@ -26,32 +26,26 @@ function Videos() {
                 <Tags text="Badminton" />
                 <Tags text="Olympics" />
             </div>
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
+            <div className="video__cards">
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+            </div>
         </div>
     )
 }
