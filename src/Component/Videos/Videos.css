@@ -2,9 +2,6 @@
   flex: 0.85;
   height: calc(100vh - 70px);
   overflow-y: scroll;
-  /* display: flex; */
-  /* flex-direction: column-reverse; */
-  /* justify-content: center; */
 }
 
 .videos::-webkit-scrollbar {
@@ -45,4 +42,5 @@
 .video__cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }

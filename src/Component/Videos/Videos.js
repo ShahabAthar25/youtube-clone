@@ -45,6 +45,8 @@ function Videos() {
                 <VideoCard />
                 <VideoCard />
                 <VideoCard />
+                <VideoCard />
+                <VideoCard />
             </div>
         </div>
     )
