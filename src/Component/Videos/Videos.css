@@ -1,5 +1,5 @@
 .videos {
-  flex: 0.85;
+  flex: 1;
   height: calc(100vh - 70px);
   overflow-y: scroll;
 }
@@ -19,7 +19,7 @@
 }
 
 .video__tag {
-  background-color: #fff;
+  background-color: white;
   display: flex;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;

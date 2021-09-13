@@ -14,9 +14,6 @@ import { Avatar } from '@material-ui/core'
 import { ReactComponent as YoutubeLogo }from '../../Images/youtube.svg'
 
 function Header({ setOpen, open }) {
-
-    console.log(!open)
-
     return (
         <div className="header">
             <div className="header__left">
