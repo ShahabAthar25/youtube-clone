@@ -13,9 +13,9 @@ import ShopOutlinedIcon from '@material-ui/icons/ShopOutlined';
 import WatchLaterOutlinedIcon from '@material-ui/icons/WatchLaterOutlined';
 
 
-function Sidebar() {
+function Sidebar({ open }) {
     return (
-        <div className="sidebar">
+        <div className={open ? 'sidebar' : 'hidden'}>
             <SidebarOption Icon={HomeOutlinedIcon} text="Home" />
             <SidebarOption Icon={ExploreOutlinedIcon} text="Explore" />
             <SidebarOption Icon={SubscriptionsOutlinedIcon} text="Subscriptions" />

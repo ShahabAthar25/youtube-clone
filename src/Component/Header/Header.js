@@ -13,11 +13,14 @@ import { Avatar } from '@material-ui/core'
 
 import { ReactComponent as YoutubeLogo }from '../../Images/youtube.svg'
 
-function Header() {
+function Header({ setOpen, open }) {
+
+    console.log(!open)
+
     return (
         <div className="header">
             <div className="header__left">
-                <MenuIcon />
+                <MenuIcon onClick={() => setOpen(!open)} />
                 <YoutubeLogo className="header__youtubeLogo" style={{ height: "20px" }} />
             </div>
             <div className="header__center">
