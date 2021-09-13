@@ -10,3 +10,8 @@
 .hidden {
   display: none;
 }
+
+.br50 {
+  border-radius: 50% !important;
+  width: 10px !important;
+}

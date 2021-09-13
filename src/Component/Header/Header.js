@@ -9,6 +9,7 @@ import VideoCallOutlinedIcon from '@material-ui/icons/VideoCallOutlined';
 import AppsOutlinedIcon from '@material-ui/icons/AppsOutlined';
 import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
 
+import { Button } from '@material-ui/core';
 import { Avatar } from '@material-ui/core'
 
 import { ReactComponent as YoutubeLogo }from '../../Images/youtube.svg'
@@ -29,9 +30,15 @@ function Header({ setOpen, open }) {
             </div>
             <div className="header__right">
                 <div className="header__icons">
-                    <VideoCallOutlinedIcon />
-                    <AppsOutlinedIcon />
-                    <NotificationsNoneOutlinedIcon />
+                    <Button className="br50">
+                        <VideoCallOutlinedIcon />
+                    </Button>
+                    <Button className="br50">
+                        <AppsOutlinedIcon />
+                    </Button>
+                    <Button className="br50">
+                        <NotificationsNoneOutlinedIcon />
+                    </Button>
                 </div>
                 <Avatar className="header__avatar" />
             </div>
